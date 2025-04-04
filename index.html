@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>سایت خبری</title>
+     <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>اخبار روز</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">خانه</a></li>
+                    <li><a href="#">بین‌الملل</a></li>
+                    <li><a href="#">اقتصاد</a></li>
+                    <li><a href="#">ورزش</a></li>
+                    <li><a href="#">فرهنگ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="news">
+                <article>
+                    <img src="images.jpg" alt="خبر 1">
+                     
+                    <p>متن خبر ۱ به اینجا می‌آید. این بخش شامل جزئیات خبر می‌باشد.</p>
+                    <div class="buttons">
+                        <button>بیشتر بخوانید</button>
+                        <button onclick="toggleHeart(this)">پسندیدن</button>
+                        <span class="heart"></span>
+                        <span class="like-count">0</span>
+                        <button onclick="toggleShare(this)">اشتراک‌گذاری</button>
+                        <div class="share-panel">
+                            <a href="#" class="share-icon">🔗</a>
+                            <a href="#" class="share-icon">📧</a>
+                            <a href="#" class="share-icon">🐦</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article>
+                    <img src="igtsad.jpg" alt="خبر 2">
+                    
+                    <p>متن خبر ۲ به اینجا می‌آید. این بخش شامل جزئیات خبر می‌باشد.</p>
+                    <div class="buttons">
+                        <button>بیشتر بخوانید</button>
+                        <button onclick="toggleHeart(this)">پسندیدن</button>
+                        <span class="heart"></span>
+                        <span class="like-count">0</span>
+                        <button onclick="toggleShare(this)">اشتراک‌گذاری</button>
+                        <div class="share-panel">
+                            <a href="#" class="share-icon">🔗</a>
+                            <a href="#" class="share-icon">📧</a>
+                            <a href="#" class="share-icon">🐦</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article>
+                    <img src="download.jpg" alt="خبر ۳ ">
+                    </h2></h2>
+                    <p>متن خبر ۳ به اینجا می‌آید. این بخش شامل جزئیات خبر می‌باشد.</p>
+                    <div class="buttons">
+                        <button>بیشتر بخوانید</button>
+                        <button onclick="toggleHeart(this)">پسندیدن</button>
+                        <span class="heart"></span>
+                        <span class="like-count">0</span>
+                        <button onclick="toggleShare(this)">اشتراک‌گذاری</button>
+                        <div class="share-panel">
+                            <a href="#" class="share-icon">🔗</a>
+                            <a href="#" class="share-icon">📧</a>
+                            <a href="#" class="share-icon">🐦</a>
+                        </div>
+                    </div>
+                </article>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>کلیه حقوق محفوظ است &copy; 2024</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
